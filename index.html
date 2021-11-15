@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Favicon -->
+    <link rel="shorcut icon" href="img/fav-icon.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,200;1,500;1,700&display=swap" rel="stylesheet">rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+    <section id="main">
+    <!-- nav -->
+        <nav>
+            <input type="checkbox" id="menu-btn" class="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+            <ul class="menu">
+                <li><a href="#main">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#rencent">Rencent</a></li>
+                <li><a href="#project">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#" class="hey">Say Hi!</a>
+        </nav>
+        <!-- akhir nav -->
+        
+        <!-- content -->
+        <div class="content">
+            <div class="model">
+                <img src="img/model.png">
+            </div>
+            <div class="main-text">
+                <h1 class="sayHello"></h1>
+                <p>Saya merupakan seorang siswa di SMK Telkom Sandhy Putra Purwokerto. Saya adalah seorang programming enthusiast. Bahasa pemrograman favorit saya adalah PHP.</p>
+                <a href="#skills" class="portfolio-btn">Lihat Portofolio Saya</a>
+            </div>
+        </div>
+        <!-- akhir content -->
+    </section>
+
+    <!-- skills -->
+    <section id="skills" data-aos="fade-up" data-aos-offset="400" data-aos-duration="1000">
+        <div class="skill-text">
+            <div class="skill-heading">
+                <span>Skill Saya</span>
+                <h2>Keahlian</h2>
+            </div>
+            <div class="s-box-container">
+                <div class="skill-box" data-aos="fade-up" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="500">
+                    <div class="s-box-icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="s-box-text">
+                        <strong>Hyper Text Markup Language (HTML)</strong>
+                        <p>Saya sudah mendalami HTML selama 4 bulan. Walaupun belum cukup lama namun saya yakin dengan kemampuan yang saya miliki.</p>
+                    </div>
+                </div>
+                <div class="skill-box" data-aos="fade-up" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="1000">
+                    <div class="s-box-icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="s-box-text">
+                        <strong>Cascading Style Sheet (CSS)</strong>
+                        <p>Sama seperti HTML, saya juga sudah mendalami CSS selama 4 bulan.</p>
+                    </div>
+                </div>
+                <div class="skill-box" data-aos="fade-up" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="1500">
+                    <div class="s-box-icon">
+                        <i class="fab fa-php"></i>
+                    </div>
+                    <div class="s-box-text">
+                        <strong>PHP : Hypertext Preprocessor (PHP)</strong>
+                        <p>Saya sedang mendalami bahasa pemrograman PHP baru-baru ini dan ingin menjadi seorang PHP Developer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-img">
+            <img src="img/skill.png">
+        </div>
+    </section>
+    <!-- akhir skills -->
+
+    <!-- rencent -->
+    <section id="rencent" data-aos="fade-left" data-aos-offset="400" data-aos-duration="1000">
+        <div class="rencent-heading">
+            <span>Baru - Baru Ini</span>
+            <h3>Project Saya Baru - Baru Ini</h3>
+        </div>
+        <div class="rencent-img">
+            <img src="img/rencent.png">
+        </div>
+    </section>
+
+    <section id="project">
+        <div class="project-heading">
+            <span>Project</span>
+            <h3>Project Saya</h3>
+        </div>
+        <div class="p-box-container">
+            <div class="project-box" data-aos="flip-left" data-aos-offset="400" data-aos-duration="1000">
+                <img src="img/project-1.png">
+                <div class="project-heading">
+                    <h4>PHP Todolist</h4>
+                </div>
+                <p>Merupakan sebuah aplikasi Todolist berbasis comand line. Aplikasi ini dibuat menggunakan bahasa pemrograman PHP</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="project-box" data-aos="flip-left" data-aos-offset="400" data-aos-duration="1000" data-aos-delay="500">
+                <img src="img/project-2.png">
+                <div class="project-heading">
+                    <h4>PHP Form Buku</h4>
+                </div>
+                <p>Adalah sebuah aplikasi form buku berbasis web. Dibuat menggunakan HTML dan PHP serta database MySQL.</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="project-box" data-aos="flip-left" data-aos-offset="400" data-aos-duration="1000" data-aos-delay="1000">
+                <img src="img/project-3.png">
+                <div class="project-heading">
+                    <h4>Android Database</h4>
+                </div>
+                <p>Sebuah aplikasi database berbasis android. Dibuat menggunakan bahasa pemrograman Kotlin.</p>
+                <a href="#">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!-- akhir rencent -->
+
+    <!-- contact -->
+    <section id="contact" data-aos="fade-right" data-aos-offset="400" data-aos-duration="1000">
+        <img src="img/contact.svg">
+        <h3 data-aos="fade-right" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="700">Hubungi Saya</h3>
+        <div class="contact-input" data-aos="fade-right" data-aos-offset="0" data-aos-duration="1000" data-aos-delay="1400">
+            <input type="email" placeholder="example@gmail.com">
+            <a href="#">Continue</a>
+        </div>
+    </section>
+    <!-- akhir contact -->
+    
+    <!-- footer -->
+    <footer>
+        <p>Salam Hangat dari Saya!</p>
+        <p>Copyright 2021 - Cahyo Susilo</p>
+    </footer>
+    <!-- akhir footer -->
+    
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>  
+    <!-- akhir AOS -->
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.sayHello', {duration: 1.5, text: 'Halo, Saya Cahyo'})
+    </script>
+    <!-- akhir GSAP -->
+    
+</body>
+</html>
